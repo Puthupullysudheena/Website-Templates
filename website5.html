@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CORBO'S</title>
+    <link href="sand.jpg" type="image/icon" rel="icon">
+    <style>
+        *{
+            margin: auto;
+            padding: auto;
+        }
+        #wrappa{
+            width: 1400px;
+            height: 1400px;
+        }
+        .container{
+            width: 1400px;
+            height:200px ;
+            background-color: rgb(244, 234, 223);
+            display: flex;
+        }
+        .container1{
+            width: 253px;
+            height:170px ;
+            background-color:  rgb(244, 234, 223);
+        }
+        .container2{
+            width: 222px;
+            height:200px ;
+            background-color: rgb(244, 234, 223);
+        }
+        .container3{
+            width: 222px;
+            height:230px ;
+            background-color:  rgb(244, 234, 223);
+            border-right: 1px black groove;
+        
+        }
+        .container4{
+            width: 222px;
+            height:230px ;
+            background-color:  rgb(244, 234, 223);
+            border-right: 1px black groove;
+        }
+        .container5{
+            width: 222px;
+            height:230px ;
+            background-color:  rgb(244, 234, 223);
+        }
+        .container6{
+            width: 260px;
+            height:140px ;
+            background-color:  rgb(244, 234, 223);
+        }
+        .wrapper{
+            width: 1400px;
+            height: 60px;
+            background-color: rgb(3, 57, 22);
+            display: flex;
+        } 
+        .wrapper1{
+            width: 200px;
+            height: 60px;
+            background-color: rgb(113, 129, 119);
+        } 
+        .wrapper2{
+            width: 166px;
+            height: 60px;
+            background-color: rgb(74, 93, 81);
+        }
+        
+        .wrapper3{
+            width: 166px;
+            height: 60px;
+            background-color: rgb(3, 57, 22);
+        }
+        .wrapper4{
+            width: 166px;
+            height: 60px;
+            background-color: rgb(75, 210, 122);
+        }
+        .wrapper5{
+            width: 166px;
+            height: 60px;
+            background-color: rgb(88, 136, 105);
+        }
+        .wrapper6{
+            width: 166px;
+            height: 60px;
+            background-color: rgb(141, 167, 150);
+        }
+        .wrapper7{
+            width: 166px;
+            height: 60px;
+            background-color: rgb(212, 249, 225);
+        }
+        .wrapper8{
+            width: 200px;
+            height: 60px;
+            background-color: rgb(56, 108, 74);
+        }
+        button:hover{
+            width: 166px;
+            height: 60px;
+        }
+        button a:hover{
+                background-color: rgb(175, 8, 8);
+                color: black;
+                padding: 5px 5px 5px 5px;
+                border-radius: 10px;
+        }
+        .container-wrapper{
+            width: 1400px;
+            height: 350px;
+            background-color: antiquewhite;
+        }
+        .demo{
+            width: 1400px;
+            height: 450px;
+            background-color: rgb(244, 234, 223);
+            display: flex;
+        }
+        .demo1{
+            width: 250px;
+            height: 450px;
+            background-color:  rgb(244, 234, 223);
+        }
+        .demo2{
+            width: 300px;
+            height: 450px;
+            background-color:  rgb(244, 234, 223);
+        }
+        .demo3{
+            width: 300px;
+            height: 450px;
+            background-color:  rgb(244, 234, 223);
+        }
+        .demo4{
+            width: 300px;
+            height: 450px;
+            background-color:  rgb(244, 234, 223);
+        }
+        .demo5{
+            width: 250px;
+            height: 450px;
+            background-color:  rgb(244, 234, 223);
+        }
+        .wrap{
+            width: 1400px;
+            height: 50px;
+            background-color:  rgb(244, 234, 223);
+        }
+        .wrap1{
+            width: 400px;
+            height: 50px;
+            background-color:  rgb(3, 56, 63);
+            color: white;
+            font-size: 30px;
+            border-radius: 20px;
+        }
+        .wrap-container{
+            width: 1400px;
+            height: 200px;
+            background-color:rgb(233, 229, 223);
+            display: flex;
+        }
+        .wrap-container1{
+            width: 300px;
+            height: 250px;
+            background-color:rgb(233, 229, 223);
+        }
+        .wrap-container2{
+            width: 200px;
+            height: 250px;
+            background-color:rgb(233, 229, 223);
+        }
+        .wrap-container3{
+            width: 200px;
+            height: 250px;
+            background-color:rgb(233, 229, 223);
+        }
+        .wrap-container4{
+            width: 200px;
+            height: 250px;
+            background-color:rgb(233, 229, 223);
+        }
+        .wrap-container5{
+            width: 200px;
+            height: 250px;
+            background-color:rgb(233, 229, 223);
+        }
+        .wrap-container6{
+            width: 300px;
+            height: 250px;
+            background-color:rgb(233, 229, 223);
+        }
+        .mid-wrapper{
+            width: 1400px;
+            height: 200px;
+            background-color:  rgb(200, 112, 90);
+            display: flex;
+        }
+        .mid-wrapper1{
+            width: 300px;
+            height: 200px;
+            background-color:  rgb(200, 112, 90);
+        }
+        .mid-wrapper2{
+            width: 200px;
+            height: 200px;
+            background-color:  rgb(200, 112, 90);
+        }
+        .mid-wrapper3{
+            width: 250px;
+            height: 200px;
+            background-color: rgb(200, 112, 90);
+        }
+        .mid-wrapper4{
+            width: 250px;
+            height: 200px;
+            background-color:  rgb(200, 112, 90);
+        }
+        .mid-wrapper5{
+            width: 400px;
+            height: 200px;
+            background-color: rgb(200, 112, 90);
+        }
+        .mid-container {
+            width: 1400px;
+            height: 50px;
+            background-color: rgb(88, 25, 9);
+        }
+
+    </style>
+</head>
+<body>
+    <div id="wrappa">
+        <div class="container">
+            <div class="container1"></div><!--close class container 1-->
+            <div class="container2">
+                <h2 style="text-align: center; padding: 20px; letter-spacing: 2px; color: rgb(60, 2, 2); font-size: 40px;">CORBO'S</h2>
+                <img src="peo.png" width="222" height="100px">
+                
+            </div><!--close class container 2-->
+            <div class="container3">
+                <h3 style="padding: 10px 10px 10px 10px;">Carbo's The Best Delis-58796</h3>
+                <p style="padding: 0px 10px 10px 10px;">Kindly Order the dishes as per your choices,Nashik, Maharashtra</p>
+                <h3 style="color: red; padding: 10px 10px 10px 10px;">Order Delivery</h3>
+                <h3 style="color: red; padding: 0px 10px 10px 10px;">210-546-4558</h3>
+            </div><!--close class container 3-->
+            <div class="container4">
+                 <h3 style="padding: 10px 10px 10px 10px;">Carbo's The Best Delis In Town</h3>
+                <p style="padding: 0px 10px 10px 10px;">Kindly Order the dishes as per your choices,Nashik, Maharashtra</p>
+                <h3 style="color: red; padding: 10px 10px 10px 10px;">Order Delivery</h3>
+                <h3 style="color: red; padding: 0px 10px 10px 10px;">563-111-5698</h3>
+            </div><!--close class container 4-->
+            <div class="container5">
+                 <h3 style="padding: 10px 10px 10px 10px;">Carbo's The Best Delis no1</h3>
+                <p style="padding: 0px 10px 10px 10px;">Kindly Order the dishes as per your choices,Nashik, Maharashtra</p>
+                <h3 style="color: red; padding: 10px 10px 10px 10px;">Order Delivery</h3>
+                <h3 style="color: red; padding: 0px 10px 10px 10px;">257-589-9388</h3>
+            </div><!--close class container 5-->
+            <div class="container6"></div><!--close class container 6-->
+        </div><!--close class container-->
+        <div class="wrapper">
+            <div class="wrapper1">
+                <button style="background-color: rgb(3, 56, 63); width: 200px; height: 60px; border: none;"><a href="" style="color: white; font-size: 35px; text-decoration: none;"></a></button>
+            </div><!--close class wrapper 1-->
+            <div class="wrapper2">
+                <button style="background-color: rgb(3, 56, 63); width: 166px; height: 60px; border: none;"><a href="" style="color: white; font-size: 35px; text-decoration: none;">Home</a></button>
+            </div><!--close class wrapper 2-->
+            <div class="wrapper3">
+                <button style="background-color: rgb(3, 56, 63); width: 167px; height: 60px; border: none;"><a href="" style="color: white; font-size: 35px; text-decoration: none;">Delivery</a></button>
+            </div><!--close class wrapper 3-->
+            <div class="wrapper4">
+                <button style="background-color: rgb(3, 56, 63); width: 167px; height: 60px; border: none;"><a href="" style="color: white; font-size: 35px; text-decoration: none;">About Us</a></button>
+            </div><!--close class wrapper 4-->
+            <div class="wrapper5">
+                <button style="background-color: rgb(3, 56, 63); width: 167px; height: 60px; border: none;"><a href="" style="color: white; font-size: 35px; text-decoration: none;">Team</a></button>
+            </div><!--close class wrapper 5-->
+            <div class="wrapper6">
+                <button style="background-color: rgb(3, 56, 63); width: 167px; height: 60px; border: none;"><a href="" style="color: white; font-size: 35px; text-decoration: none;">Account</a></button>
+            </div><!--close class wrapper 6-->
+            <div class="wrapper7">
+                <button style="background-color: rgb(3, 56, 63); width: 166px; height: 60px; border: none;"><a href="" style="color: white; font-size: 35px; text-decoration: none;">Services</a></button>
+            </div><!--close class wrapper 7-->
+            <div class="wrapper8">
+                <button style="background-color: rgb(3, 56, 63); width: 200px; height: 60px; border: none;"><a href="" style="color: white; font-size: 35px; text-decoration: none;"></a></button>
+            </div><!--close class wrapper 8-->
+        </div><!--close class wrapper-->
+        <div class="container-wrapper">
+            <img src="sand.jpg" width="1400px" height="350px" style="padding: 10px 10px 10px 10px;">
+            <p>Fruity and flavorful, these hefty grab-and-go handfuls are quick to assemble, easy to handle and low in calories. We often take them in a cooler to the local stock show and eat them in the stands. Everyone seems to love them! —Bobbie Keefer, Byers, Colorado</p>
+        </div><!--close class container-wrapper-->
+        <div class="demo">
+            <div class="demo1"></div><!--close class demo 1-->
+            <div class="demo2">
+                <h2 style="text-align: center;">Grilled Sandwiches</h2>
+                <img src="sand.jpg" width="300px" height="200px" style="padding: 10px 10px 10px 10px;">
+                <p style="word-spacing: 3px; padding: 10px 10px 10px 10px;">Fruity and flavorful, these hefty grab-and-go handfuls are quick to assemble, easy to handle and low in calories. We often take them in a cooler to the local stock show and eat them in the stands. Everyone seems to love them! —Bobbie Keefer, Byers, Colorado</p><br>
+                 <p><a href="https://www.tasteofhome.com/collection/sandwich-wrap-recipes/" target="_blank" style="color: red; text-decoration: none; padding: 0px 10px 10px 10px;">Read More</a></p>
+
+            </div><!--close class demo 2-->
+            <div class="demo3">
+                <h2 style="text-align: center;">Fresh Salads</h2>
+                 <img src="fs.jpg" width="300px" height="200px" style="padding: 10px 10px 10px 10px;">
+                 <p style="word-spacing: 3px; padding: 10px 10px 10px 10px;">Fruity and flavorful, these hefty grab-and-go handfuls are quick to assemble, easy to handle and low in calories. We often take them in a cooler to the local stock show and eat them in the stands. Everyone seems to love them! —Bobbie Keefer, Byers, Colorado</p><br>
+                 <p><a href="https://www.tasteofhome.com/collection/sandwich-wrap-recipes/" target="_blank" style="color: red; text-decoration: none; padding: 0px 10px 10px 10px;">Read More</a></p>
+            </div><!--close class demo 3-->
+            <div class="demo4">
+                <h2 style="text-align: center;">Delicious Wraps</h2>
+                 <img src="dw.webp" width="300px" height="200px" style="padding: 10px 10px 10px 10px;">
+                 <p style="word-spacing: 3px; padding: 10px 10px 10px 10px;">Fruity and flavorful, these hefty grab-and-go handfuls are quick to assemble, easy to handle and low in calories. We often take them in a cooler to the local stock show and eat them in the stands. Everyone seems to love them! —Bobbie Keefer, Byers, Colorado</p><br>
+                 <p><a href="https://www.tasteofhome.com/collection/sandwich-wrap-recipes/" target="_blank" style="color: red; text-decoration: none; padding: 0px 10px 10px 10px;">Read More</a></p>
+            </div><!--close class demo 4-->
+            <div class="demo5"></div><!--close class demo 5-->
+        </div><!--close class demo-->
+        <div class="wrap">
+        <div class="wrap1">
+            <h2 style="text-align: center; font-style: italic;">Featured</h2>
+        </div><!--close class wrap 1-->
+        </div><!--close class wrap-->
+        <div class="wrap-container">
+            <div class="wrap-container1"></div><!--close class wrap-container 1-->
+            <div class="wrap-container2">
+                <img src="bbbb.jpeg" width="185px" height="150px" style="border-radius: 120px; padding: 10px 10px 10px 10px;">
+                <h3 style="padding: 0px 10px 10px 10px;">Double cheese burger</h3>
+            </div><!--close class wrap-container 2-->
+            <div class="wrap-container3">
+                <img src="roll.jpg" width="185px" height="150px" style="border-radius: 120px; padding: 10px 10px 10px 10px;">
+                <h3 style="padding: 0px 10px 10px 10px;">Healthy Veg Roll</h3>
+            </div><!--close class wrap-container 3-->
+            <div class="wrap-container4">
+                <img src="ssss.jpg" width="185px" height="150px" style="border-radius: 120px;padding: 10px 10px 10px 10px;">
+                <h3 style="padding: 0px 10px 10px 10px;">Normal Mix Veg Sandwiches</h3>
+            </div><!--close class wrap-container 4-->
+            <div class="wrap-container5">
+                <img src="bs.jpg" width="185px" height="150px" style="border-radius: 120px; padding: 10px 10px 10px 10px;">
+                <h3 style="padding: 0px 10px 10px 10px;">Cheese Bread Double Layer Sandwiches</h3>
+            </div><!--close class wrap-container 5-->
+            <div class="wrap-container6"></div><!--close class wrap-container 6-->
+        </div><!--close class wrap-container-->
+        <div class="mid-wrapper">
+             <div class="mid-wrapper1"></div><!--close class mid-wrapper 1-->
+              <div class="mid-wrapper2">
+                <h3 style="padding: 30px 10px 10px 10px;">MAIN LINES</h3>
+                <p style="padding:  5px 10px 10px 10px;">Sandwiches</p>
+                <p style="padding: 0px 10px 10px 10px;">Burger</p>
+                <p style="padding: 0px 10px 10px 10px;">Rolls</p>
+                <p style="padding: 0px 10px 10px 10px;"> Cheese Sandwiches</p>
+              </div><!--close class mid-wrapper 2-->
+               <div class="mid-wrapper3">
+                <h3 style="padding: 30px 10px 10px 10px;">CONTACT US</h3>
+                <p style="padding: 0px 10px 10px 10px;">Address- 45889 - Govind nagar ,near camp road, Nashik, Maharashtra ,4220011</p>
+                <p style="padding: 0px 10px 10px 10px;">256-5874-555</p>
+                <p style="padding: 0px 10px 10px 10px;">ID- 58740021</p>
+
+               </div><!--close class mid-wrapper 3-->
+                <div class="mid-wrapper4">
+                    <h3 style="padding: 30px 10px 10px 10px;">ABOUT US</h3>
+                    <p style="padding: 0px 10px 10px 10px;">We like to take it one step at a time. We explore our playground, own it, and then they expand it with the sys to meet new challenges. Each goal sets the stage for the next lvel of the part.</p>
+                </div><!--close class mid-wrapper 4-->
+                <div class="mid-wrapper5">
+                    <h3 style="padding: 30px 10px 10px 10px;"> CARBO'S</h3>
+                </div><!--close class mid-wrapper 5-->
+        </div><!--close class mid-wrapper-->
+        <div class="mid-container">
+            <p style="text-align: center; color: white; padding: 16px;">Everyone seems to love them! —Bobbie Keefer, Byers, Colorado- 325896477855</p>
+        </div><!--close class mid-container-->
+    </div><!--close main id wrapp a-->
+</body>
+</html>
